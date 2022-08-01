@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        <title>EJS</title>
+    </head>
+
+    <body>
+
+        <h2>Bienvenida... desde aqui se puede probar EJS</h2>
+        <br>
+        <br>
+        <fieldset>
+            <h2>Prueba GET productos</h2>
+            <h3>Presione para traer todos los productos</h3>
+            <form action="/api/productos" method="GET">
+                <button>Traer</button>
+            </form>
+        </fieldset>
+        <br>
+        <br>
+        <!-- <fieldset>
+            <h2>Prueba GET productos (con ID)</h2>
+            <h3>Indique el producto que quiere traer</h3>
+            <form action= "/api/productos"  method="GET">
+                ID: <input type="text" name="id" />
+                <button>Traer</button>
+            </form>
+        </fieldset> -->
+
+        <fieldset>
+            <h2>Prueba POST</h2>
+            <h3>Ingrese Datos Productos</h3>
+        <form action="/api/productos" method="POST">
+            Nombre: <input type="text" name="name" />
+            Precio: <input type="number" name="price" />
+            URL Imagen: <input type="text" name="imagen" />
+            <button>Enviar</button>
+        </form>
+        </fieldset>
+        
+        <!-- <fieldset>
+            <h2>Prueba PUT</h2>
+            <h3>Ingrese Datos Producto a actualizar</h3>
+        <form action="/api/productos" method="PUT">
+            ID: <input type="text" name="id" />
+            Nombre: <input type="text" name="nombre" />
+            Apellido: <input type="text" name="apellido" />
+            <button>Enviar</button>
+        </form>
+        </fieldset>
+
+        <fieldset>
+            <h2>Prueba DELETE producto (con ID)</h2>
+            <h3>Indique el producto que quiere eliminar</h3>
+            <form action= "/api/productos"  method="DELETE">
+                ID: <input type="text" name="id" />
+                <button>Eliminar</button>
+            </form>
+        </fieldset> -->
+
+    </body>
+
+</html>

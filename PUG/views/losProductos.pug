@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="../css/style.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+if (products)
+  <p class="title">Nuestros Vinos - PUG</p>
+
+    <table class="table">
+    <thead class="bg-success"> 
+      th="Nombre"
+      th="Precio"
+      th="Imagen"
+      <tbody>
+      each prod in products
+        <tr class="background_table">
+        td=prod.title
+        td=prod.price
+        td=" "
+          img(src="", alt="", srcset=prod.img) 
+      </table>
+
+else
+   <h2 class="title">NO SE ENCONTRARON LOS PRODUCTOS</h2>
+<br>
+  <br>
+    <div class="center_button">
+    <a href="/"><button>Volver a Inicio
+  
+     
+

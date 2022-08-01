@@ -1,0 +1,22 @@
+table {
+    max-width: 50%;
+    margin: auto;
+}
+
+table img{
+    width: 45px;
+}
+
+.background_table{
+    background-color: lightyellow;
+}
+
+.center_button{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
