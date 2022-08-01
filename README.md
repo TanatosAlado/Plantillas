@@ -4,11 +4,12 @@ Desarrollo Backend - Comisión 31030
 
 ## Proyecto
 
-En este desafío ponemos a prueba los conocimientos adquiridos de Express.
-Ingresando en: https://jealous-periodic-danthus.glitch.me/ podemos realizar 2 tipos de pruebas:
-* Ver todos los productos de nuestra BD
-* Ver un producto de nuestra BD elegido al azar (random)
+En este desafío ponemos a prueba los conocimientos adquiridos en Plantillas.
+Se podrán realizar pruebas sobre las 3 plantillas (hbs, pug, ejs)
+Se comparte la misma base de datos
 
+## Pruebas
+En lo particular, me resultó más comodo trabajar con plantillas EJS. Si bien cada una tiene lo suyo, me fue más sencillo investigar sobre EJS. Encontré mayor info a disponibilidad.
 
 
 ## Realizado por: Cristian Alessandria
